@@ -5,7 +5,7 @@ module "resource-group" {
     location = var.location
   
 }
-module "resource-group" {
+module "resource-group-db" {
     source = "git::https://github.com/narendrareddy-p/modules.git//resource-group?ref=feature"
     resource_group_name = var.rg_name["db-team"]
     location = var.location
