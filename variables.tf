@@ -13,3 +13,14 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+variable "address_space" {
+    description = "Space of the virtual network"
+    type = list(string)
+  
+}
+
+variable "vnet_name" {
+  description = "Name of the virtual network"
+  type = string
+}

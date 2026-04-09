@@ -4,3 +4,8 @@ module "resource-group" {
     location = var.location
   
 }
+
+module "virtual-network" {
+  source = "git::https://github.com/narendrareddy-p/modules.git//virtual-network?ref=feature"
+  
+}
