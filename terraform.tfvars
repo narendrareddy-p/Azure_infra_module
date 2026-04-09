@@ -1,4 +1,6 @@
-rg_name  = "Modules-Infra"
+rg_name  = { app-team = "Modules-Infra"
+             db-team = "Modules-DB"
+}
 location = "UK West"
 vnet_name = "Module-devops"
 address_space = [ "10.1.1.0/24" ]

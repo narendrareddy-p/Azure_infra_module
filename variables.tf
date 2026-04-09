@@ -1,6 +1,6 @@
 variable "rg_name" {
   description = "Name of the Resource Group"
-  type        = string
+  type        = map(string)
 }
 
 variable "location" {
