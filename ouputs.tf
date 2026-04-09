@@ -1,7 +1,7 @@
 
 output "resource-group" {
   description = "Name of the resource group"
-  value = module.resource-group.name
+  value = module.resource-group.resource_group_name
   
 }
 
