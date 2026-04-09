@@ -1,4 +1,4 @@
-Nname: Infra_Deployment_Modules
+name: Infra_Deployment_Modules
 
 on:
   push:
