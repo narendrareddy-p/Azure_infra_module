@@ -1,2 +1,2 @@
-resource_group_name  = "Modules-Infra"
+rg_name  = "Modules-Infra"
 location = "UK West"
