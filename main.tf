@@ -21,6 +21,8 @@ module "virtual-network" {
   address_space = var.address_space
   subnet_name = var.subnet_name
   address_prefixes =  var.address_prefixes
+  publicip_name = var.publicip_name
   depends_on = [ module.resource-group ]
+  
 
 }
