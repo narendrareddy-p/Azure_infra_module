@@ -24,3 +24,16 @@ variable "vnet_name" {
   description = "Name of the virtual network"
   type = string
 }
+
+variable "subnet_name" {
+
+    description = "name of the subnet"
+    type = string
+  
+}
+
+variable "address_prefixes" {
+    description = "subnet address range"
+    type = list(string)
+  
+}
