@@ -37,3 +37,8 @@ variable "address_prefixes" {
     type = list(string)
   
 }
+
+variable "publicip_names" {
+  description = "name of the public ip address"
+  type = string
+}
